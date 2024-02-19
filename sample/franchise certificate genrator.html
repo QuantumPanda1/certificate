@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Certificate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="max-width: 100%; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <h1 style="font-size: 36px; color: #007bff; margin-bottom: 10px; text-align: center;">THE NUMBERS ACADEMY</h1>
+        <img src="abacussample.jpg" > 
+        <p style="font-size: 16px; color: #666; margin-bottom: 10px; text-align: center;">Empowering young minds</p>
+        <p style="font-size: 16px; color: #666; margin-bottom: 10px; text-align: left;">Off:2-1-338/4,Behind Jahnavi Group of Institutions,Nallakunta,Hyderabad,Telangana-500044.</p>
+        <p style="font-size: 16px; color: #666; margin-bottom: 10px; text-align: left;">ph: 9866219903,7207594581</p>
+        <h2 style="font-size: 24px; color: #333; margin-bottom: 20px; text-align: center;">FRANCHISE CERTIFICATE</h2>
+        <p style="font-size: 16px; color: #666; margin-bottom: 10px; text-align: left;">The Number's Academy is proud to certify you as an international trainer. You can now teach Vedic Mathematics and Abacus to school and college students globally. We congratulate you for your excellent performance.</p>
+        <p style="font-size: 16px; color: #666; margin-bottom: 10px; text-align: left;">Date: <span id="date">[Fill the date]</span><span style="float: right;">G.Vara Lakshmi</span></p>
+        <p style="font-size: 16px; color: #666; margin-bottom: 10px; text-align: left;">Date of issue<span style="float: right;">[Trainer name]</span></p>
+    </div>
+
+    <script>
+        // Function to fill the date dynamically
+        function fillDate() {
+            var dateElement = document.getElementById('date');
+            var currentDate = new Date().toLocaleDateString();
+            dateElement.innerText = currentDate;
+        }
+
+        // Example usage
+        fillDate();
+    </script>
+</body>
+</html>
